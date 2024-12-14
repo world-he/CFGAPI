@@ -1,6 +1,6 @@
 export async function onRequest(context) {
   try {
-    const TELEGRAPH_URL = 'https://generativelanguage.googleapis.com';
+    const TELEGRAPH_URL = 'https://generativelanguage.googleapis.com/v1beta';
     const request = context.request;
     const url = new URL(request.url);
     
